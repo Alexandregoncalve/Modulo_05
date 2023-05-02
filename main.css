@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header .container img {
+    float: left;
+    margin-right: 20px; /* Adicione uma margem para separar o texto da imagem */
+}
+
+header img { /* configuracao tamanho da imagem cotação do dia */
+    width: 60%;
+    height: auto;
+}
+
+.container img {
+    heinght: 24px;
+}
+
+header {
+    padding: 48px 0;
+    background-image: linear-gradient(to bottom, #00ff5582, #ffffff);
+
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 48px;
+}
+
+header nav li a {
+    font-size: 16px;
+    color: #054618;
+    text-decoration: none;
+}
+.container {
+    color: #054618;
+    font-size: 24px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* alteração para enquadrar o grafico dentro da pagina
+.tradingview-widget-copyrigh {
+    white-space: nowrap;
+}
+
+.tradingview-widget-copyrigh {
+    overflow-x: hidden;
+}
+.tradingview-widget-copyrighcontainer {
+    width: 100%;
+}
+
+.tradingview-widget-container {
+    width: 145%; /*posiçao do grafio lado direito da pagina */
+    text-align: center; /* opcional, centraliza o gadget horizontalmente */
+    padding: 50px; /* espaco entre o grafico e a barra de menu principal  
+}
+
+.tradingview-widget-copyright {
+    float: right;
+}
+
+*/
+.tradingview-widget-container { /* configuração para inserir o grafico ao lado da imagem */
+    float: right;
+    width: 300px;
+    height: 280px;
+}
+
+.tradingview-widget-container {
+    width: 145%; /*posiçao do grafio lado direito da pagina */
+   /* text-align: center;  opcional, centraliza o gadget horizontalmente */
+    padding: 50px; /* espaco entre o grafico e a barra de menu principal */ 
+}
+
+
+.newSingle_content_left_images { /* alteracao imagem do whats, face, instra etc */
+    
+    position: fixed;
+    top: 2;
+    bottom: 10;
+    width: 300px;
+    transform: rotate(270deg);
+    text-decoration: none;
+}
+
+
+/* configuração barras inferior de whats */
+.contact-bar {
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-bar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-bar li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.contact-bar a {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: rgb(12, 132, 48);
+    transition: background-color 0.6s ease-in-out;
+}
+
+.contact-bar a:hover {
+    background-color: rgb(125, 196, 125);
+}
+
+.contact-bar i {
+    font-size: 180px;
+}
+
+/* area Simulador de Investimentos */
+#resultados .container img {
+
+    width: 100%;
+}
+
+/* area resultados */
+#resultados .container img {
+
+    width: 100%;
+}
+
+/* area ferramentas */
+#resultados .container img {
+
+    width: 100%;
+}
+
+/* area minha conta */
+#resultados .container img {
+    width: 100%;
+}
+
+#contact .container {
+   display: block; 
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 800px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.contact-methods form button {
+    display: block;
+    width: 1250px;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+form textarea {
+    resize: none;
+    height: 250px;
+}
+
+form button {
+    
+    color:  #054618;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(125, 196, 125);
+}
+
+/* area Busca */
+#resultados .container img {
+
+    width: 100%;
+}
+
+
+
