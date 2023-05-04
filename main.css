@@ -18,14 +18,31 @@ header .container img {
     margin-right: 20px; /* Adicione uma margem para separar o texto da imagem */
 }
 
-header img { /* configuracao tamanho da imagem cotação do dia */
-    width: 60%;
-    height: auto;
+.article  img { /* configuracao tamanho da imagem cotação do dia */
+    max-width: 1280px;
+    width: 40%;
+    margin-left: 420px;
+    
 }
 
-.container img {
-    heinght: 24px;
+/*
+.article .tradingview-widget-container .tradingview-widget-copyright {
+
+    max-width: 1280px;
+    width: 40%;
+    margin-left: 420px
+
 }
+*/
+
+.tradingview-widget-container {
+    margin-left: 900px;
+    margin-top: -280px;
+
+
+}
+
+
 
 header {
     padding: 48px 0;
@@ -55,48 +72,11 @@ header .container {
     justify-content: space-between;
 }
 
-/* alteração para enquadrar o grafico dentro da pagina
-.tradingview-widget-copyrigh {
-    white-space: nowrap;
-}
-
-.tradingview-widget-copyrigh {
-    overflow-x: hidden;
-}
-.tradingview-widget-copyrighcontainer {
-    width: 100%;
-}
-
-.tradingview-widget-container {
-    width: 145%; /*posiçao do grafio lado direito da pagina */
-    text-align: center; /* opcional, centraliza o gadget horizontalmente */
-    padding: 50px; /* espaco entre o grafico e a barra de menu principal  
-}
-
-.tradingview-widget-copyright {
-    float: right;
-}
-
-*/
-.tradingview-widget-container { /* configuração para inserir o grafico ao lado da imagem */
-    float: right;
-    width: 300px;
-    height: 280px;
-}
-
-.tradingview-widget-container {
-    width: 145%; /*posiçao do grafio lado direito da pagina */
-   /* text-align: center;  opcional, centraliza o gadget horizontalmente */
-    padding: 50px; /* espaco entre o grafico e a barra de menu principal */ 
-}
-
-
 .newSingle_content_left_images { /* alteracao imagem do whats, face, instra etc */
-    
     position: fixed;
     top: 2;
     bottom: 10;
-    width: 300px;
+    width: 360px;
     transform: rotate(270deg);
     text-decoration: none;
 }
